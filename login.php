@@ -103,7 +103,7 @@ mysqli_close($db); // Close connection
           <div class="u-custom-menu u-nav-container">
             <ul class="u-nav u-spacing-30 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-5-base u-text-hover-palette-5-base" href="Home.html" style="padding: 10px 0px;">Home</a>
 </li><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-5-base u-text-hover-palette-5-base" href="Contact.html" style="padding: 10px 0px;">Contact</a>
-</li><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-5-base u-text-hover-palette-5-base" href="LOGIN.html" style="padding: 10px 0px;">Login</a>
+</li><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-5-base u-text-hover-palette-5-base" href="login.php" style="padding: 10px 0px;">Login</a>
 </li></ul>
           </div>
           <div class="u-custom-menu u-nav-container-collapse">
