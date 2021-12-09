@@ -167,11 +167,11 @@ if(isset($_SESSION['house'])) {
         $insert1 = mysqli_query($db,"SELECT * from `residents` WHERE (`Email`='$email' AND `Resident_Status`='Active') ");
         $insert2 = mysqli_query($db,"SELECT * from `residents` WHERE (`Email`='$email' AND `Resident_Status`='Away') ");
          if(mysqli_num_rows($insert1)==1){
-           $update1 = mysqli_query($db,"UPDATE  `residents` SET `Resident_Status`='Away' WHERE `Resident_Status`='Active' ");
+           $update1 = mysqli_query($db,"UPDATE  `residents` SET `Resident_Status`='Away' WHERE `Resident_Status`='Active' AND `Email`='$email' ");
           
         } 
         if(mysqli_num_rows($insert2)==1){
-          $update2 = mysqli_query($db,"UPDATE  `residents` SET `Resident_Status`='Active' WHERE `Resident_Status`='Away' ");
+          $update2 = mysqli_query($db,"UPDATE  `residents` SET `Resident_Status`='Active' WHERE `Resident_Status`='Away' AND `Email`='$email' ");
           
         }
 

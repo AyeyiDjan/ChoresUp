@@ -44,7 +44,6 @@ if(isset($_POST['login']))//Check when the login button is clicked
         $error= "Invalid login details";
     }
 }
-
 mysqli_close($db); // Close connection
 ?>
 <!DOCTYPE html>
